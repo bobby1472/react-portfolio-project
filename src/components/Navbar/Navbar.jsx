@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { FaBars } from "react-icons/fa6";
 
+
 function Navbar() {
   const [isToggle, setToggle] = useState(false);
   function handleToggle() {
     setToggle(!isToggle); // false + false = true
   }
+
+
+
   return (
     <nav>
       <div className={styles.container}>
@@ -16,17 +20,17 @@ function Navbar() {
           </div>
           <ul>
             <li>
-              <a href="#">Skills</a>
+              <a href="#skillsJump">Skills</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#portJump">Portfolio</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contJump">Contact</a>
             </li>
           </ul>
           <div className={styles.button}>
-            <a href="#">Hire Me</a>
+            <a href="#contJump">Call Me</a>
           </div>
         </div>
 
@@ -35,12 +39,18 @@ function Navbar() {
         {isToggle ? (
           <>
             <ul className={styles.mobile_menu}>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <li>
+                <a href="#skillsJump">Skills</a>
+              </li>
+              <li>
+                <a href="#portJump">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contJump">Contact</a>
+              </li>
             </ul>
             <div className={styles.mobile_button}>
-              <a href="#">Hire Me</a>
+              <a href="#contJump">Call Me</a>
             </div>
           </>
         ) : null}

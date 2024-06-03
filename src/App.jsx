@@ -12,12 +12,14 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import AnimatedCursor from 'react-animated-cursor'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    
      <AnimatedCursor
       innerSize={8}
       outerSize={8}
@@ -42,7 +44,7 @@ function App() {
         '.link'
       ]}
     />
-
+      <ScrollToTop />
       <Navbar />
       <Hero />
       <Skills />
