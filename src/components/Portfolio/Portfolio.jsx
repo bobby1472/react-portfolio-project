@@ -19,7 +19,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="/src/assets/img/CRReport_Cover.jpg"
+              src="./src/assets/img/CRReport_Cover.jpg"
               alt=""
             />
           </Tilt>
