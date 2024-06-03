@@ -10,7 +10,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="https://drive.google.com/file/d/1owPd5qwOftE53qHtLh4pjFesPp2oPaLj/view?usp=sharing"
+              src="https://img5.pic.in.th/file/secure-sv1/Add-ons_Cover.jpg"
               alt=""
             />
           </Tilt>
@@ -19,7 +19,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="./src/assets/img/CRReport_Cover.jpg"
+              src="https://img2.pic.in.th/pic/CRReport_Cover.jpg"
               alt=""
             />
           </Tilt>
@@ -28,7 +28,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="src/assets/img/WEBDIAPI_Cover.jpg"
+              src="https://img2.pic.in.th/pic/WEBDIAPI_Cover.jpg"
               alt=""
             />
           </Tilt>
@@ -37,7 +37,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="src/assets/img/React_Cover.jpg"
+              src="https://img2.pic.in.th/pic/React_Cover.jpg"
               alt=""
             />
           </Tilt>
@@ -46,7 +46,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="src/assets/img/MasterDataCleansing_Cover.jpg"
+              src="https://img5.pic.in.th/file/secure-sv1/MasterDataCleansing_Cover.jpg"
               alt=""
             />
           </Tilt>
@@ -55,7 +55,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="src/assets/img/SQLTraining_Cover.jpg"
+              src="https://img5.pic.in.th/file/secure-sv1/SQLTraining_Cover.jpg"
               alt=""
             />
           </Tilt>
