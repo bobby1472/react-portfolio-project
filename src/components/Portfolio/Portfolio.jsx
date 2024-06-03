@@ -10,7 +10,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="src/assets/img/Add-ons_Cover.jpg"
+              src="https://drive.google.com/file/d/1owPd5qwOftE53qHtLh4pjFesPp2oPaLj/view?usp=sharing"
               alt=""
             />
           </Tilt>
@@ -19,7 +19,7 @@ function Portfolio() {
         <div className={styles.port_items}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="src/assets/img/CRReport_Cover.jpg"
+              src="/src/assets/img/CRReport_Cover.jpg"
               alt=""
             />
           </Tilt>
